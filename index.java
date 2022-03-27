@@ -50,7 +50,7 @@ public class index {
                 a.setNumList(bin, cin);// sends base and convert inputs in 
 
                 List<String> numlist = a.getNumList();// takes input for number, and converts it into a string array
-                                                  // with each value as an element in that array.
+                                // with each value as an element in that array.
                 b.setBinaryArray(cin, bin, numlist);// sends the inputs to convert to binary correctly;1
                 System.out.println(Arrays.asList(numlist));
                 List<String> midList = b.getBinaryArray();
